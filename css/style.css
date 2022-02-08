@@ -1,0 +1,140 @@
+@import "null.css";
+@import url(https://fonts.googleapis.com/css?family=Tajawal:400,700,900@display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:600italic@display=swap);
+body {
+   font-family: "Tajawal", sans-serif;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 35px;
+   max-width: 600px;
+   margin: 0 auto;
+   text-align: center;
+   padding: 10px;
+}
+h2 {
+   font-weight: 700;
+   font-size: 25px;
+}
+h3 {
+   font-weight: 700;
+   margin: 3px 0 0 5px;
+}
+h4 {
+   color: white;
+   width: 150px;
+   height: 16px;
+   margin: 0 0 -16px 0;
+}
+span {
+   font-weight: 700;
+}
+img {
+   padding: 20px 0 0 0;
+}
+.img-font {
+   display: block;
+   margin: 0 0 0 auto;
+   padding: 0 20px 0 0;
+}
+.img-happiness {
+   width: 300px;
+   height: 120px;
+   margin: -120px 0 0 20px;
+}
+.img-time {
+   width: 300px;
+   height: 130px;
+   display: block;
+   margin: -130px 0 0 auto;
+   padding: 0 20px 0 0;
+}
+.img-relationship {
+   width: 300px;
+   height: 170px;
+   margin: -170px 0 0 20px;
+}
+.menu {
+   width: 200px;
+   margin: 0 0 0 auto;
+   text-align: right;
+   padding: 0 20px 0 0;
+}
+.menu ol {
+   color: orangered;
+   text-decoration: underline;
+}
+.text p {
+   font-family: "Nunito Sans";
+   font-style: italic;
+   width: 600px;
+   margin: -64px 0 10px 20px;
+}
+.header ul {
+   margin: 5px 0 0 10px;
+}
+.header.happiness {
+   width: 1100px;
+   height: 120px;
+   margin: 0 0 0 auto;
+   padding: 0 20px 0 0;
+}
+.header.time {
+   width: 1000px;
+   height: 130px;
+   margin: 0 0 0 20px;
+}
+.header.relationship {
+   width: 1100px;
+   height: 170px;
+   margin: 0 0 0 auto;
+   padding: 0 20px 0 0;
+}
+.header.total {
+   width: 1000px;
+   height: 150px;
+   margin: 0 0 0 20px;
+}
+.header-scroll {
+   max-width: 500px;
+   max-height: 80px;
+   margin: 10px 0 10px 20px;
+   overflow: auto;
+   background-color: aliceblue;
+}
+.header-scroll p {
+   font-family: "Nunito Sans";
+   width: 700px;
+   font-style: italic;
+}
+.header-scroll a {
+   display: inline-block;
+   text-decoration: underline;
+   margin: 10px 0 0 20px;
+   color: orangered;
+}
+.footer-black {
+   min-height: 100px;
+   background-color: rgb(75, 70, 70);
+}
+.color-text {
+   color: white;
+   margin: 0 0 -32px 0;
+   padding: 16px 0 0 0;
+}
+.color-text li {
+   text-decoration: underline;
+}
+.footer-black .text-font {
+   max-width: 1000px;
+   min-height: 100px;
+   margin: 0 auto;
+   font-size: 100px;
+   text-align: center;
+   color: rgba(255, 255, 255, 0.26);
+}
